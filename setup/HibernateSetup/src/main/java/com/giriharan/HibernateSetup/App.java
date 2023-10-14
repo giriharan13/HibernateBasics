@@ -10,20 +10,20 @@ public class App
     {
     	Configuration cfg = new Configuration();
     	cfg.configure("hibernate.cfg.xml");
-    	cfg.addAnnotatedClass(student.class);
+    	cfg.addAnnotatedClass(Student.class);
     	
     	SessionFactory sf = cfg.buildSessionFactory();
     	
     	Session s = sf.openSession();
     	s.beginTransaction();
-    	student stud1 = new student();
+    	Student stud1 = new Student();
     	stud1.setRoll(1);
     	stud1.setName("AAA");
     	stud1.setAge(20);
     	s.save(stud1);
     	s.getTransaction().commit();
     	
-    	System.out.println("Vera maari bro!");
+    	System.out.println("Transaction committed successfully!");
 
     }
 }

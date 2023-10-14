@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class student {
+public class Student {
 	
 	@Id
 	@Column(name="rollNo")

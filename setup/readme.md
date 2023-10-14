@@ -42,10 +42,10 @@ Make sure you have these installed in your system
 
 ## Step 3: Configure Hibernate
 
-1. In Eclipse, create a Hibernate configuration file (e.g., `hibernate.cfg.xml`).
+1. In Eclipse, create a Hibernate configuration file (e.g., `hibernate.cfg.xml`) using JBoss tools(install it in Eclipse Marketplace if not available).
 2. Add the necessary configurations to the file, including the database URL, username, and password.
 
-<img width="570" alt="Screenshot 2023-10-11 190829" src="https://github.com/giriharan13/HibernateBasics/assets/119475958/5ff0d599-3c75-47e7-b413-f562e05025b2">
+<img width="748" alt="image" src="https://github.com/giriharan13/HibernateBasics/assets/119475958/0afb90e2-37e5-418a-b1bf-3ab1f683245a">
 
 
 
